@@ -1,3 +1,4 @@
+#--- import modules
 import sys
 import ovito
 import ovito.modifiers as md
@@ -9,7 +10,7 @@ import math
 import pdb
 
 
-
+#--- aux 
 def GetNpairs(data, finder):        
     Npairs = 0
     for index in range(data.number_of_particles):
